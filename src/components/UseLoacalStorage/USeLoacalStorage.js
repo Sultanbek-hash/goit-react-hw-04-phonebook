@@ -16,9 +16,3 @@ export default function UseLocalStorage(key, CONTACTS){
 
     return [state, setState];
 };
-
-// const equalName = contacts.find(contact => contact.name.toLowerCase() === (data.name.toLowerCase()));
-    
-//       equalName 
-//       ? alert(`${name} + ' is already in contacts.`) 
-//       : '';
